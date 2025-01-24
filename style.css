@@ -1,0 +1,63 @@
+*{                                           /* for the all page use (*) */
+    margin: 0;       
+    padding: 0;
+    text-align: center;                  /* text aling use for posion of text*/ 
+}
+h1{
+    height: 5rem;
+    color: #f8f8f8;             /* text color*/
+    background-color:  #53819f;          
+     line-height: 5rem;    /* for verticaly center */
+}
+.choice{
+  height: 165px;
+  width: 165px; 
+  border-radius: 50%;           /* change the shape like circle*/
+  display: flex;                 /* disply color only picture*/
+  justify-content: center;
+  align-items: center;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;          /*for clarty of img */
+    border-radius: 50%;           /* change the shape like circle*/
+}
+.choices{
+    display:flex;            /* flex use for  all element of div is one line*/
+   margin-top: 5rem;             /* margin form top of */
+   gap: 3rem;                   /* gap between choices ( img)*/
+   justify-content: center;            /* choices are in center of page*/
+   
+}
+.choice:hover{                    /* it meains arrow on choices(img)*/
+/*cursor: pointer;                     /*on img the arrow look like a hand*/
+/*opacity: 0.3;                      /*img is bler when arrow on the choice(img)*/
+background-color: rgb(5, 4, 62);       
+
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score,#computer-score{
+    font-size:3rem ;
+
+}
+.msg-container{
+    margin-top: 5rem;
+}
+  #msg{
+    color: aliceblue;             /* text color*/
+    background-color:#15213e;
+   font-size: 2rem;
+   display: inline;    /* backgroun color only for text */        
+  padding: 1rem;          /* space from text */
+  border-radius: 2rem;
+  }  
+
